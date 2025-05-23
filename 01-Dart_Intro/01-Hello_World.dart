@@ -3,7 +3,7 @@
   //para comentar en dart comentarios de una linea se usa "//"
   //para una cadena de texto se usa "/* */"
   //todo codigo en dart se inicializa con un "main(){}", se trabaja dentro de la llaves
-  //"void" es el tipo de dato de nuestra funcion "main"
+  //toda funcion o metodo se inicializa con tipo de dato en este caso "void" sera el tipo de dato de "main"
   //toda instruccion en dar se finaliza con ";" obligatoriamente
 //
 
@@ -19,7 +19,7 @@ void main(){
   const MyName = 'Henry';
 
   print('hola $MyName');
-  
+
   //  "$" es una interpolación de string, y en "{}" si quieres ejecutar una expresión
 
 }

@@ -9,7 +9,7 @@ void main(){
 
   final List<String> abilities = ['impostor'];//2. en esta se espefica que es una lista de string
 
-  final srites = <String>['ditto/front.png', 'ditto/back.png'];  
+  final sprites = <String>['ditto/front.png', 'ditto/back.png'];  
   //3.los signos "<>" definen el tipo de dato de la lista y los "[]" son un generico que indica que es una lista
 
 
@@ -25,7 +25,7 @@ void main(){
     $HP
     $isAlive
     $abilities
-    $srites
+    $sprites
 
   """); 
 }

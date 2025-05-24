@@ -10,18 +10,22 @@
 void main(){
 
   /* Hay varias formas de declarar un variable en dart las cuales son las siguientes:
-    1. var MyName = 'Mundo';
-    2. String MyName ='Mundo';
-    3. final MyName = 'Henry'; (final no te permite cambiar el valor de la variable) 
-      3.1 late final MyName; ("late" se utiliza para una variable final que aun no es asignada pero en algun momento lo hara)
-        3.1.1 MyName = 'Henry';
+    var MyName = 'Mundo';
+    String MyName ='Mundo';
+    final MyName = 'Henry'; (final no te permite cambiar el valor de la variable) 
+      late final MyName; ("late" se utiliza para una variable final que aun no es asignada pero en algun momento lo hara)
+        MyName = 'Henry';
   */
-  
+
   const MyName = 'Henry';
 
-  print('hola $MyName');
+  print('hola $MyName'); // Resultado: Hola Henry
 
   //  "$" es una interpolación de string, y en "{}" si quieres ejecutar una expresión
+
+  print ('Hola ${MyName.toUpperCase()}'); //Resultado: Hola HENRY
+
+  print ('Hola ${1+1}'); //Resultado: Hola 2
 
 }
 
